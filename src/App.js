@@ -137,6 +137,11 @@ function Launch({ launch }) {
     return {__html: htmlStr};
   }
 
+  function getPrettyCommentTime(date) {
+    let dateObj = new Date(date);
+    return `${dateObj.getHours()}:${dateObj.getMinutes()}`;
+  }
+
   return (
     <li className="timeline-item timeline-item-detailed right">
       <div className="timeline-content timeline-type file">
@@ -166,10 +171,11 @@ function Launch({ launch }) {
 
           {comments.map(comment => {
             let htmlToRender = createMarkup(comment.body);
+            let commentTime = getPrettyCommentTime(comment.date);
 
             return (
               <div key={comment.id} className="timeline-summary">
-                <p>{comment.author}- {comment.date}</p>
+                <p>{comment.author}- {commentTime}</p>
                 <div dangerouslySetInnerHTML={htmlToRender} />
               </div>
             )
