@@ -38,38 +38,6 @@ function useGraphQL(query) {
   return state;
 }
 
-function getComments(launchId) {
-  console.log('launchId', launchId);
-  comments(launchId).catch(error => console.error(error))
-}
-
-async function comments(launchId) {
-  const endpoint = 'https://pb3c6uzk5zhrzbcuhssogcpq74.appsync-api.us-east-1.amazonaws.com/graphql'
-
-  const graphQLClient2 = new GraphQLClient(endpoint, {
-    headers: {
-      'x-api-key': 'da2-tadwcysgfbgzrjsfmuf7t4huui',
-      'Content-Type': 'application/json',
-    },
-  })
-
-  const query = /* GraphQL */
-    `{
-      launchCommentsByFlightNumber(flightNumber: ${launchId}) {
-        items {
-          id
-          author
-          body
-          date
-        }
-      }
-    }`
-
-  const data = await graphQLClient2.request(query)
-  console.log(JSON.stringify(data, undefined, 2))
-}
-
-
 function Header() {
   return (
     <div className="page-head">
@@ -118,11 +86,56 @@ function Launches({ launches }) {
 }
 
 function Launch({ launch }) {
+  const [comments, setComments] = useState([]);
+
   const launchIcon = launch.launch_success ? (
     <i className="icon mdi mdi-rocket" />
   ) : (
     <i className="icon mdi mdi-bomb" />
   );
+
+
+  function getComments(launchId, fn) {
+    console.log('launchId', launchId);
+    commentsRetrieve(launchId).catch(error => console.error(error));
+    //comments(launchId).catch(error => console.error(error))
+  }
+
+  async function commentsRetrieve(launchId) {
+    const endpoint = 'https://pb3c6uzk5zhrzbcuhssogcpq74.appsync-api.us-east-1.amazonaws.com/graphql'
+
+    const graphQLClient2 = new GraphQLClient(endpoint, {
+      headers: {
+        'x-api-key': 'da2-tadwcysgfbgzrjsfmuf7t4huui',
+        'Content-Type': 'application/json',
+      },
+    })
+
+    const query = /* GraphQL */
+      `{
+        launchCommentsByFlightNumber(flightNumber: ${launchId}) {
+          items {
+            id
+            author
+            body
+            date
+          }
+        }
+      }`
+
+    const data = await graphQLClient2.request(query)
+    //console.log('data.launchCommentsByFlightNumber.items', data.launchCommentsByFlightNumber.items);
+    //console.log(JSON.stringify(data, undefined, 2))
+    //console.log(JSON.stringify(data.launchCommentsByFlightNumber.items, undefined, 2))
+    const commentsForLaunch = data.launchCommentsByFlightNumber.items;
+    console.log('commentsForLaunch', commentsForLaunch);
+    setComments(commentsForLaunch);
+    //console.log(JSON.stringify(data.items, undefined, 2))
+  }
+
+  function createMarkup(htmlStr) {
+    return {__html: htmlStr};
+  }
 
   return (
     <li className="timeline-item timeline-item-detailed right">
@@ -144,6 +157,25 @@ function Launch({ launch }) {
         </div>
         <div className="timeline-summary">
           <p>{launch.details}</p>
+        </div>
+        <div className="comments">
+
+          {comments.length > 0 && (
+            <h3>Comments</h3>
+          )}
+
+          {comments.map(comment => {
+            let htmlToRender = createMarkup(comment.body);
+
+            return (
+              <div key={comment.id} className="timeline-summary">
+                <p>{comment.author}- {comment.date}</p>
+                <div dangerouslySetInnerHTML={htmlToRender} />
+              </div>
+            )
+          })}
+
+
         </div>
       </div>
     </li>
