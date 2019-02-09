@@ -129,17 +129,6 @@ function Launch({ launch }) {
     setComments(commentsForLaunch);
   }
 
-  function createMarkup(htmlStr) {
-    return {__html: htmlStr};
-  }
-
-  function getPrettyCommentTime(date) {
-    let dateObj = new Date(date);
-    let hours = dateObj.getHours();
-    let minutes = dateObj.getMinutes();
-    return `${getPrettyTime(hours)}:${getPrettyTime(minutes)}`;
-  }
-
   return (
     <li className="timeline-item timeline-item-detailed right">
       <div className="timeline-content timeline-type file">
@@ -166,22 +155,37 @@ function Launch({ launch }) {
               <h4>Comments</h4>
             )}
 
-            {comments.map(comment => {
-              let htmlToRender = createMarkup(comment.body);
-              let commentTime = getPrettyCommentTime(comment.date);
-
-              return (
-                <div key={comment.id} className="comment">
-                  <p><span className="comment-author">{comment.author}</span> <span className="comment-time">{commentTime}</span></p>
-                  <div dangerouslySetInnerHTML={htmlToRender} />
-                </div>
-              )
-            })}
+            {comments.map(comment => <Comment comment={comment} />
+            )}
           </div>
         </div>
       </div>
     </li>
   );
+}
+
+function Comment({ comment }) {
+  let htmlToRender = createMarkup(comment.body);
+  let commentTime = getPrettyCommentTime(comment.date);
+
+  function createMarkup(htmlStr) {
+    return {__html: htmlStr};
+  }
+
+  function getPrettyCommentTime(date) {
+    let dateObj = new Date(date);
+    let utcHours = dateObj.getUTCHours();
+    let utcMinutes = dateObj.getUTCMinutes();
+
+    return `${getPrettyTime(utcHours)}:${getPrettyTime(utcMinutes)}`;
+  }
+
+  return (
+    <div key={comment.id} className="comment">
+      <p><span className="comment-author">{comment.author}</span> <span className="comment-time">{commentTime}</span></p>
+      <div dangerouslySetInnerHTML={htmlToRender} />
+    </div>
+  )
 }
 
 export default function App() {
