@@ -174,9 +174,12 @@ function Comment({ comment }) {
 
   function getPrettyCommentTime(date) {
     let dateObj = new Date(date);
-    let hours = dateObj.getHours();
-    let minutes = dateObj.getMinutes();
-    return `${getPrettyTime(hours)}:${getPrettyTime(minutes)}`;
+    let utcHours = dateObj.getUTCHours();
+    let utcMinutes = dateObj.getUTCMinutes();
+    console.log('utcHours', utcHours);
+
+
+    return `${getPrettyTime(utcHours)}:${getPrettyTime(utcMinutes)}`;
   }
 
   return (
