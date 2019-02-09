@@ -1,3 +1,32 @@
 .timeline-header {
   padding-left: 0;
 }
+
+.btn-comments {
+	margin-left: 8px;
+	border: 2px solid #fab660;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+.btn-comments:hover,
+.btn-comments:active {
+	background-color: #fde1bf;
+}
+
+.comments {
+	padding: 18px;
+}
+
+.comment {
+	border-left: 2px solid #fab660;
+	padding: 0 18px 18px 18px;
+}
+
+.comment-author {
+	font-size: 1.308rem;;
+}
+
+.comment-time {
+	float: right;
+}

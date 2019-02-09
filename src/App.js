@@ -153,7 +153,7 @@ function Launch({ launch }) {
           </span>{' '}
           <p className="timeline-activity">
             {launch.rocket.rocket_name} &mdash; {launch.launch_site.site_name}
-            <button onClick={() => getComments(launch.id)}>
+            <button className="btn-comments" onClick={() => getComments(launch.id)}>
               Comments
             </button>
 
@@ -162,26 +162,24 @@ function Launch({ launch }) {
         </div>
         <div className="timeline-summary">
           <p>{launch.details}</p>
-        </div>
-        <div className="comments">
 
-          {comments.length > 0 && (
-            <h3>Comments</h3>
-          )}
+          <div className="comments">
+            {comments.length > 0 && (
+              <h4>Comments</h4>
+            )}
 
-          {comments.map(comment => {
-            let htmlToRender = createMarkup(comment.body);
-            let commentTime = getPrettyCommentTime(comment.date);
+            {comments.map(comment => {
+              let htmlToRender = createMarkup(comment.body);
+              let commentTime = getPrettyCommentTime(comment.date);
 
-            return (
-              <div key={comment.id} className="timeline-summary">
-                <p>{comment.author}- {commentTime}</p>
-                <div dangerouslySetInnerHTML={htmlToRender} />
-              </div>
-            )
-          })}
-
-
+              return (
+                <div key={comment.id} className="comment">
+                  <p><span className="comment-author">{comment.author}</span> <span className="comment-time">{commentTime}</span></p>
+                  <div dangerouslySetInnerHTML={htmlToRender} />
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
     </li>
