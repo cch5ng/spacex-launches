@@ -2,16 +2,26 @@
   padding-left: 0;
 }
 
-.btn-comments {
+button {
 	margin-left: 8px;
-	border: 2px solid #fab660;
+	border: 2px solid #ccc;
 	border-radius: 5px;
 	padding: 7px;
+	width: 85px;
+}
+
+.btn-comments {
+	border-color: #fab660;
 }
 
 .btn-comments:hover,
 .btn-comments:active {
 	background-color: #fde1bf;
+}
+
+.btn-show-video:hover,
+.btn-show-video:active {
+	background-color: #e5e5e5;
 }
 
 .comments {
@@ -29,4 +39,8 @@
 
 .comment-time {
 	float: right;
+}
+
+iframe {
+	margin-top: 20px;
 }
