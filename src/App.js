@@ -16,6 +16,9 @@ const launchesQuery = `{
     rocket {
       rocket_name
     }
+    links {
+      video_link
+    }
     details
   }
 }`;
@@ -95,6 +98,9 @@ function Launch({ launch }) {
     <i className="icon mdi mdi-bomb" />
   );
 
+  let videoUrlReformat = launch && launch.links && launch.links.video_link ? launch.links.video_link.replace('watch?v=', 'embed/') : '';
+  console.log('videoUrlReformat', videoUrlReformat);
+
 
   function getComments(launchId, fn) {
     console.log('launchId', launchId);
@@ -149,6 +155,12 @@ function Launch({ launch }) {
         </div>
         <div className="timeline-summary">
           <p>{launch.details}</p>
+
+          {videoUrlReformat && (
+            <iframe width="560" height="315" src={videoUrlReformat} frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen />
+          )}
 
           <div className="comments">
             {comments.length > 0 && (
