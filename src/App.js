@@ -176,8 +176,6 @@ function Comment({ comment }) {
     let dateObj = new Date(date);
     let utcHours = dateObj.getUTCHours();
     let utcMinutes = dateObj.getUTCMinutes();
-    console.log('utcHours', utcHours);
-
 
     return `${getPrettyTime(utcHours)}:${getPrettyTime(utcMinutes)}`;
   }
