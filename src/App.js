@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { GraphQLClient } from 'graphql-request';
 import { useEffect, useState } from 'react';
+import { getPrettyTime } from './helpers';
 
 const launchesQuery = `{
   launches {
@@ -124,13 +125,8 @@ function Launch({ launch }) {
       }`
 
     const data = await graphQLClient2.request(query)
-    //console.log('data.launchCommentsByFlightNumber.items', data.launchCommentsByFlightNumber.items);
-    //console.log(JSON.stringify(data, undefined, 2))
-    //console.log(JSON.stringify(data.launchCommentsByFlightNumber.items, undefined, 2))
     const commentsForLaunch = data.launchCommentsByFlightNumber.items;
-    console.log('commentsForLaunch', commentsForLaunch);
     setComments(commentsForLaunch);
-    //console.log(JSON.stringify(data.items, undefined, 2))
   }
 
   function createMarkup(htmlStr) {
@@ -139,7 +135,9 @@ function Launch({ launch }) {
 
   function getPrettyCommentTime(date) {
     let dateObj = new Date(date);
-    return `${dateObj.getHours()}:${dateObj.getMinutes()}`;
+    let hours = dateObj.getHours();
+    let minutes = dateObj.getMinutes();
+    return `${getPrettyTime(hours)}:${getPrettyTime(minutes)}`;
   }
 
   return (
