@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { GraphQLClient } from 'graphql-request';
 import { useEffect, useState } from 'react';
+import { getPrettyTime } from './helpers';
 
 const launchesQuery = `{
   launches {
@@ -86,11 +87,58 @@ function Launches({ launches }) {
 }
 
 function Launch({ launch }) {
+  const [comments, setComments] = useState([]);
+
   const launchIcon = launch.launch_success ? (
     <i className="icon mdi mdi-rocket" />
   ) : (
     <i className="icon mdi mdi-bomb" />
   );
+
+
+  function getComments(launchId, fn) {
+    console.log('launchId', launchId);
+    commentsRetrieve(launchId).catch(error => console.error(error));
+    //comments(launchId).catch(error => console.error(error))
+  }
+
+  async function commentsRetrieve(launchId) {
+    const endpoint = 'https://pb3c6uzk5zhrzbcuhssogcpq74.appsync-api.us-east-1.amazonaws.com/graphql'
+
+    const graphQLClient2 = new GraphQLClient(endpoint, {
+      headers: {
+        'x-api-key': 'da2-tadwcysgfbgzrjsfmuf7t4huui',
+        'Content-Type': 'application/json',
+      },
+    })
+
+    const query = /* GraphQL */
+      `{
+        launchCommentsByFlightNumber(flightNumber: ${launchId}) {
+          items {
+            id
+            author
+            body
+            date
+          }
+        }
+      }`
+
+    const data = await graphQLClient2.request(query)
+    const commentsForLaunch = data.launchCommentsByFlightNumber.items;
+    setComments(commentsForLaunch);
+  }
+
+  function createMarkup(htmlStr) {
+    return {__html: htmlStr};
+  }
+
+  function getPrettyCommentTime(date) {
+    let dateObj = new Date(date);
+    let hours = dateObj.getHours();
+    let minutes = dateObj.getMinutes();
+    return `${getPrettyTime(hours)}:${getPrettyTime(minutes)}`;
+  }
 
   return (
     <li className="timeline-item timeline-item-detailed right">
@@ -103,11 +151,33 @@ function Launch({ launch }) {
           </span>{' '}
           <p className="timeline-activity">
             {launch.rocket.rocket_name} &mdash; {launch.launch_site.site_name}
+            <button className="btn-comments" onClick={() => getComments(launch.id)}>
+              Comments
+            </button>
+
           </p>
           <span className="timeline-time">{launch.launch_date_utc.slice(0, 10)}</span>
         </div>
         <div className="timeline-summary">
           <p>{launch.details}</p>
+
+          <div className="comments">
+            {comments.length > 0 && (
+              <h4>Comments</h4>
+            )}
+
+            {comments.map(comment => {
+              let htmlToRender = createMarkup(comment.body);
+              let commentTime = getPrettyCommentTime(comment.date);
+
+              return (
+                <div key={comment.id} className="comment">
+                  <p><span className="comment-author">{comment.author}</span> <span className="comment-time">{commentTime}</span></p>
+                  <div dangerouslySetInnerHTML={htmlToRender} />
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
     </li>
