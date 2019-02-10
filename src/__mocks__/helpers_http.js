@@ -19,11 +19,3 @@ export async function commentsRetrieve(launchId) {
 		resolve(comments);
 	})
 }
-
-// TODO fix this, don't need to mock but short on time
-export function getPrettyTime(timeInt) {
-	if (timeInt / 10 >= 1) {
-		return timeInt.toString();
-	}
-	return `0${timeInt.toString()}`;
-}
