@@ -36,13 +36,82 @@ describe('helpers', () => {
 			expect(mergeSort(arUnsorted)).toEqual(arSorted);
 		});
 
-		it('should sort correctly', () => {
+		it('should sort correctly2', () => {
 			const arUnsorted1 = [1000, 500, 200, 0];
 			const arSorted1 = [0, 200, 500, 1000];
 
 			expect(mergeSort(arUnsorted1)).toEqual(arSorted1);
 		});
+	});
 
+	describe('sortByDate function', () => {
+		it('should sort correctly', () => {
+			const unsortedObjAr = [
+				{	id: 0,
+					launch_date_utc: '2019-01-01T22:30:00.000Z'
+				},
+				{	id: 1,
+					launch_date_utc: '2018-12-30T12:30:00.000Z'
+				},
+				{	id: 2,
+					launch_date_utc: '2019-01-01T01:30:00.000Z'
+				},
+				{	id: 3,
+					launch_date_utc: '2019-03-03T01:30:00.000Z'
+				}
+			];
+
+			const sortedObjAr = [
+				{	id: 1,
+					launch_date_utc: '2018-12-30T12:30:00.000Z'
+				},
+				{	id: 2,
+					launch_date_utc: '2019-01-01T01:30:00.000Z'
+				},
+				{	id: 0,
+					launch_date_utc: '2019-01-01T22:30:00.000Z'
+				},
+				{	id: 3,
+					launch_date_utc: '2019-03-03T01:30:00.000Z'
+				}			
+			];
+
+			expect(sortByDate(unsortedObjAr)).toEqual(sortedObjAr);
+		});
+
+		it('should sort correctly2', () => {
+			const unsortedObjAr1 = [
+				{	id: 0,
+					launch_date_utc: '2018-04-25T22:30:00.000Z'
+				},
+				{	id: 1,
+					launch_date_utc: '2018-12-30T12:45:00.000Z'
+				},
+				{	id: 2,
+					launch_date_utc: '2018-12-30T12:30:00.000Z'
+				},
+				{	id: 3,
+					launch_date_utc: '2018-03-03T01:30:00.000Z'
+				}
+			];
+
+			const sortedObjAr1 = [
+				{	id: 3,
+					launch_date_utc: '2018-03-03T01:30:00.000Z'
+				},
+				{	id: 0,
+					launch_date_utc: '2018-04-25T22:30:00.000Z'
+				},
+				{	id: 2,
+					launch_date_utc: '2018-12-30T12:30:00.000Z'
+				},
+				{	id: 1,
+					launch_date_utc: '2018-12-30T12:45:00.000Z'
+				}
+			];
+
+			expect(sortByDate(unsortedObjAr1)).toEqual(sortedObjAr1);
+		});
 	});
 
 });
