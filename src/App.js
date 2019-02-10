@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { GraphQLClient } from 'graphql-request';
 import { useEffect, useState } from 'react';
-import { getPrettyTime, commentsRetrieve, sortByDate, mergeSort,
-  merge } from './helpers';
+import { getPrettyTime, sortByDate, mergeSort, merge } from './helpers';
+import { commentsRetrieve } from './helpers_http';
 
 const launchesQuery = `{
   launches {
