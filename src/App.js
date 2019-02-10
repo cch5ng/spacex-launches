@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import { GraphQLClient } from 'graphql-request';
 import { useEffect, useState } from 'react';
-import { getPrettyTime, commentsRetrieve } from './helpers';
+import { getPrettyTime, sortByDate } from './helpers';
+import { commentsRetrieve } from './helpers_http';
 
 const launchesQuery = `{
   launches {
@@ -68,7 +69,8 @@ function Loading() {
 }
 
 function Launches({ launches }) {
-  const launchesByDate = launches.reduce((list, launch) => {
+  const launchsSortedByDate = sortByDate(launches);
+  const launchesByDate = launchsSortedByDate.reduce((list, launch) => {
     const date = launch.launch_date_utc.slice(0, 4);
     list[date] = list[date] || [];
     list[date].push(launch);
@@ -111,34 +113,6 @@ function Launch({ launch }) {
       })
       .catch(error => console.error(error));
   }
-
-  // separate for test/mock
-  // async function commentsRetrieve(launchId) {
-  //   const endpoint = 'https://pb3c6uzk5zhrzbcuhssogcpq74.appsync-api.us-east-1.amazonaws.com/graphql'
-
-  //   const graphQLClient2 = new GraphQLClient(endpoint, {
-  //     headers: {
-  //       'x-api-key': 'da2-tadwcysgfbgzrjsfmuf7t4huui',
-  //       'Content-Type': 'application/json',
-  //     },
-  //   })
-
-  //   const query =  GraphQL 
-  //     `{
-  //       launchCommentsByFlightNumber(flightNumber: ${launchId}) {
-  //         items {
-  //           id
-  //           author
-  //           body
-  //           date
-  //         }
-  //       }
-  //     }`
-
-  //   const data = await graphQLClient2.request(query)
-  //   const commentsForLaunch = data.launchCommentsByFlightNumber.items;
-  //   return commentsForLaunch;
-  // }
 
   return (
     <li className="timeline-item timeline-item-detailed right" data-testid={launch.id}>
