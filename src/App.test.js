@@ -5,8 +5,9 @@ import { render, cleanup, waitForElement, Simulate } from 'react-testing-library
 import 'jest-dom/extend-expect';
 // TODO: resolve act warning https://github.com/kentcdodds/react-testing-library/issues/281
 // import { act } from 'react-dom/test-utils';
+import { getPrettyTime, sortByDate, mergeSort, merge } from './helpers';
 
-jest.mock('./helpers');
+jest.mock('./helpers_http');
 
 afterEach(cleanup);
 
