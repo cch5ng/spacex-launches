@@ -23,8 +23,7 @@ https://blog.apollographql.com/graphql-schema-stitching-8af23354ac37
 
  - 🐛 The launches aren't in order! For example, #7 (2010-12-08) appears after #6 (2010-06-04), where did we go wrong?
 
- > It seems like GraphQL does not return query results in a specific order and on initial searches I didn't see a simple resolution (there might be 3rd party libraries). I chose to implement a sorting function to reorder the retrieved launches list by date. Due to time constraints, I only used mergeSort but for a more flexible sorting function (for smaller list searching like 45 items), an added condition to check for short lists should default to insertion sort.
-
+ > It seems like GraphQL does not return query results in a specific order and on initial searches I didn't see a simple resolution (there might be 3rd party libraries). I chose to implement a sorting function to reorder the retrieved launches list by date. Due to time constraints, I only used mergeSort but for a more flexible sorting function (for smaller list searching like 45 items), an added condition to check for short lists should default to insertion sort. Although I implemented the logic, I did use a version which was refactored with tips from a udemy tutorial by Stephen Grider: https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/
 
 ## Your Task
 
