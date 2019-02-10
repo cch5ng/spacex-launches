@@ -10,17 +10,17 @@ export function merge(left, right) {
 	let mergedAr = [];
 	while (left.length && right.length) {
 		if (left[0] <= right[0]) {
-			mergedAr.push(left.shift())
+			mergedAr.push(left.shift());
 		} else {
-			mergedAr.push(right.shift())
+			mergedAr.push(right.shift());
 		}
 	}
 
 	if (left.length) {
-		mergedAr = mergedAr.concat(left)
+		mergedAr = mergedAr.concat(left);
 	}
 	if (right.length) {
-		mergedAr = mergedAr.concat(right)
+		mergedAr = mergedAr.concat(right);
 	}
 	return mergedAr
 }
