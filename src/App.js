@@ -92,6 +92,9 @@ function Launches({ launches }) {
 function Launch({ launch }) {
   const [comments, setComments] = useState([]);
   const [showVideo, setShowVideo] = useState(false);
+  const commentBtnTestId = `comment-btn-${launch.id}`;
+  const videoBtnTestId = `video-btn-${launch.id}`;
+  const videoFrameTestId = `video-frame-${launch.id}`;
 
   const launchIcon = launch.launch_success ? (
     <i className="icon mdi mdi-rocket" />
@@ -138,7 +141,7 @@ function Launch({ launch }) {
   // }
 
   return (
-    <li className="timeline-item timeline-item-detailed right">
+    <li className="timeline-item timeline-item-detailed right" data-testid={launch.id}>
       <div className="timeline-content timeline-type file">
         <div className="timeline-icon">{launchIcon}</div>
 
@@ -148,10 +151,10 @@ function Launch({ launch }) {
           </span>{' '}
           <p className="timeline-activity">
             {launch.rocket.rocket_name} &mdash; {launch.launch_site.site_name}
-            <button className="btn-comments" onClick={() => getComments(launch.id)}>
+            <button className="btn-comments" onClick={() => getComments(launch.id)} data-testid={commentBtnTestId}>
               Comments
             </button>
-            <button className="btn-show-video" onClick={() => setShowVideo(!showVideo)}>
+            <button className="btn-show-video" onClick={() => setShowVideo(!showVideo)} data-testid={videoBtnTestId}>
               Video
             </button>
 
@@ -164,7 +167,7 @@ function Launch({ launch }) {
           {showVideo && videoUrlReformat && (
             <iframe width="560" height="315" src={videoUrlReformat} frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen />
+              allowFullScreen data-testid={videoFrameTestId} />
           )}
 
           <div className="comments">
@@ -198,7 +201,7 @@ function Comment({ comment }) {
   }
 
   return (
-    <div className="comment">
+    <div className="comment" data-testid={comment.id}>
       <p><span className="comment-author">{comment.author}</span> <span className="comment-time">{commentTime}</span></p>
       <div dangerouslySetInnerHTML={htmlToRender} />
     </div>
