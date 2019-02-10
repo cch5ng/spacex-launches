@@ -91,6 +91,7 @@ function Launches({ launches }) {
 
 function Launch({ launch }) {
   const [comments, setComments] = useState([]);
+  const [showVideo, setShowVideo] = useState(false);
 
   const launchIcon = launch.launch_success ? (
     <i className="icon mdi mdi-rocket" />
@@ -99,13 +100,9 @@ function Launch({ launch }) {
   );
 
   let videoUrlReformat = launch && launch.links && launch.links.video_link ? launch.links.video_link.replace('watch?v=', 'embed/') : '';
-  console.log('videoUrlReformat', videoUrlReformat);
-
 
   function getComments(launchId, fn) {
-    console.log('launchId', launchId);
     commentsRetrieve(launchId).catch(error => console.error(error));
-    //comments(launchId).catch(error => console.error(error))
   }
 
   async function commentsRetrieve(launchId) {
@@ -149,6 +146,9 @@ function Launch({ launch }) {
             <button className="btn-comments" onClick={() => getComments(launch.id)}>
               Comments
             </button>
+            <button className="btn-show-video" onClick={() => setShowVideo(!showVideo)}>
+              Video
+            </button>
 
           </p>
           <span className="timeline-time">{launch.launch_date_utc.slice(0, 10)}</span>
@@ -156,7 +156,7 @@ function Launch({ launch }) {
         <div className="timeline-summary">
           <p>{launch.details}</p>
 
-          {videoUrlReformat && (
+          {showVideo && videoUrlReformat && (
             <iframe width="560" height="315" src={videoUrlReformat} frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen />
