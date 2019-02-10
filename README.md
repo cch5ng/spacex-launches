@@ -10,6 +10,21 @@ We built this out and it works OK, but it has a few issues and could use some lo
  - 🐛 If you open up the developer console, you'll see the error `"Warning: Each child in a list should have a unique "key" prop."` but [we're specifying a key](https://github.com/thoughtindustries/spacex-launches/blob/3402ee684b71d129f74bbd8fb2e2bf41ea991cd4/src/App.js#L80)! What gives?
  - ✨ The SpaceX GraphQL API, [which you can play with here](https://api.spacex.land/graphql/), has a "video_link" (under "links") which could be used to embed a video of the launch. That would be awesome!
 
+## Candidate Notes
+
+ - ✨ There's another GraphQL API with comments on each launch. It would be great to add a button that fetches and displays these comments, [something like this](https://i.imgur.com/rBkl87E.png). [See below](https://github.com/thoughtindustries/spacex-launches#comments-api) for more info on the comments API. I did not implement the orange dot/ball in the suggested styling. Maybe this could be done using flexbox, creating a separate div for the dot (defined via css) and then shifting that ball's horizontal position to overlap with the next div's left border.
+
+> For the comments addition, I decided to add one Comment button per launch. This seemed a little more efficient in terms of delivering the feature. But I did some research and if it is more user friendly to load all comments (for all launches) at once, this resource looked interesting: 
+https://blog.apollographql.com/graphql-schema-stitching-8af23354ac37 
+
+ - ✨ The SpaceX GraphQL API, [which you can play with here](https://api.spacex.land/graphql/), has a "video_link" (under "links") which could be used to embed a video of the launch. That would be awesome!
+
+ > Same as with comments (above), at first I tried to load the embedded videos at initial app render but this was taking too much time because of all of the resource downloads. So I decided to go with a single Video button per launch, to reduce the overhead. But maybe other lazy loading approaches could be considered. The concept came from this resource: https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743
+
+ - 🐛 The launches aren't in order! For example, #7 (2010-12-08) appears after #6 (2010-06-04), where did we go wrong?
+
+ > It seems like GraphQL does not return query results in a specific order and on initial searches I didn't see a simple resolution (there might be 3rd party libraries). I chose to implement a sorting function to reorder the retrieved launches list by date. Due to time constraints, I only used mergeSort but for a more flexible sorting function (for smaller list searching like 45 items), an added condition to check for short lists should default to insertion sort. Although I implemented the logic, I did use a version which was refactored with tips from a udemy tutorial by Stephen Grider: https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/
+
 ## Your Task
 
 While we don't use React ourselves (we're an Ember shop), this exercise is designed to mimic what you would be doing at Thought Industries fulltime: pick up some new technologies and improve upon an existing platform... just on a much smaller scale, and with more rockets. 🚀
