@@ -27,6 +27,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="1"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -58,11 +59,13 @@ Object {
                     Kwajalein Atoll
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-1"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-1"
                     >
                       Video
                     </button>
@@ -94,6 +97,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="2"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -125,11 +129,13 @@ Object {
                     Kwajalein Atoll
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-2"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-2"
                     >
                       Video
                     </button>
@@ -161,6 +167,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="3"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -192,11 +199,13 @@ Object {
                     Kwajalein Atoll
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-3"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-3"
                     >
                       Video
                     </button>
@@ -221,6 +230,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="4"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -252,11 +262,13 @@ Object {
                     Kwajalein Atoll
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-4"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-4"
                     >
                       Video
                     </button>
@@ -288,6 +300,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="5"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -319,11 +332,13 @@ Object {
                     Kwajalein Atoll
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-5"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-5"
                     >
                       Video
                     </button>
@@ -353,6 +368,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="6"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -384,11 +400,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-6"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-6"
                     >
                       Video
                     </button>
@@ -411,6 +429,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="7"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -442,11 +461,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-7"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-7"
                     >
                       Video
                     </button>
@@ -476,6 +497,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="8"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -507,11 +529,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-8"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-8"
                     >
                       Video
                     </button>
@@ -536,6 +560,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="9"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -567,11 +592,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-9"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-9"
                     >
                       Video
                     </button>
@@ -603,6 +630,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="10"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -634,11 +662,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-10"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-10"
                     >
                       Video
                     </button>
@@ -663,6 +693,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="11"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -694,11 +725,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-11"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-11"
                     >
                       Video
                     </button>
@@ -723,6 +756,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="12"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -754,11 +788,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-12"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-12"
                     >
                       Video
                     </button>
@@ -790,6 +826,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="13"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -821,11 +858,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-13"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-13"
                     >
                       Video
                     </button>
@@ -850,6 +889,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="14"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -881,11 +921,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-14"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-14"
                     >
                       Video
                     </button>
@@ -910,6 +952,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="15"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -941,11 +984,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-15"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-15"
                     >
                       Video
                     </button>
@@ -970,6 +1015,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="16"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1001,11 +1047,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-16"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-16"
                     >
                       Video
                     </button>
@@ -1028,6 +1076,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="17"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1059,11 +1108,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-17"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-17"
                     >
                       Video
                     </button>
@@ -1086,6 +1137,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="18"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1117,11 +1169,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-18"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-18"
                     >
                       Video
                     </button>
@@ -1151,6 +1205,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="19"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1182,11 +1237,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-19"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-19"
                     >
                       Video
                     </button>
@@ -1211,6 +1268,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="20"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1242,11 +1300,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-20"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-20"
                     >
                       Video
                     </button>
@@ -1271,6 +1331,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="21"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1302,11 +1363,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-21"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-21"
                     >
                       Video
                     </button>
@@ -1331,6 +1394,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="22"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1362,11 +1426,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-22"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-22"
                     >
                       Video
                     </button>
@@ -1391,6 +1457,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="23"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1422,11 +1489,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-23"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-23"
                     >
                       Video
                     </button>
@@ -1449,6 +1518,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="24"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1480,11 +1550,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-24"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-24"
                     >
                       Video
                     </button>
@@ -1509,6 +1581,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="25"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1540,11 +1613,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-25"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-25"
                     >
                       Video
                     </button>
@@ -1576,6 +1651,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="26"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1607,11 +1683,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-26"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-26"
                     >
                       Video
                     </button>
@@ -1636,6 +1714,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="27"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1667,11 +1746,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-27"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-27"
                     >
                       Video
                     </button>
@@ -1696,6 +1777,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="28"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1727,11 +1809,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-28"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-28"
                     >
                       Video
                     </button>
@@ -1756,6 +1840,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="29"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1787,11 +1872,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-29"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-29"
                     >
                       Video
                     </button>
@@ -1816,6 +1903,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="30"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1847,11 +1935,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-30"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-30"
                     >
                       Video
                     </button>
@@ -1876,6 +1966,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="31"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1907,11 +1998,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-31"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-31"
                     >
                       Video
                     </button>
@@ -1936,6 +2029,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="32"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -1967,11 +2061,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-32"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-32"
                     >
                       Video
                     </button>
@@ -1996,6 +2092,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="33"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2027,11 +2124,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-33"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-33"
                     >
                       Video
                     </button>
@@ -2056,6 +2155,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="34"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2087,11 +2187,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-34"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-34"
                     >
                       Video
                     </button>
@@ -2123,6 +2225,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="35"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2154,11 +2257,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-35"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-35"
                     >
                       Video
                     </button>
@@ -2183,6 +2288,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="36"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2214,11 +2320,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-36"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-36"
                     >
                       Video
                     </button>
@@ -2243,6 +2351,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="37"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2274,11 +2383,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-37"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-37"
                     >
                       Video
                     </button>
@@ -2303,6 +2414,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="38"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2334,11 +2446,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-38"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-38"
                     >
                       Video
                     </button>
@@ -2363,6 +2477,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="39"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2394,11 +2509,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-39"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-39"
                     >
                       Video
                     </button>
@@ -2423,6 +2540,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="40"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2454,11 +2572,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-40"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-40"
                     >
                       Video
                     </button>
@@ -2483,6 +2603,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="41"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2514,11 +2635,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-41"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-41"
                     >
                       Video
                     </button>
@@ -2543,6 +2666,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="42"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2574,11 +2698,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-42"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-42"
                     >
                       Video
                     </button>
@@ -2603,6 +2729,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="43"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2634,11 +2761,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-43"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-43"
                     >
                       Video
                     </button>
@@ -2663,6 +2792,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="44"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2694,11 +2824,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-44"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-44"
                     >
                       Video
                     </button>
@@ -2723,6 +2855,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="45"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2754,11 +2887,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-45"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-45"
                     >
                       Video
                     </button>
@@ -2783,6 +2918,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="46"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2814,11 +2950,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-46"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-46"
                     >
                       Video
                     </button>
@@ -2843,6 +2981,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="47"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2874,11 +3013,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-47"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-47"
                     >
                       Video
                     </button>
@@ -2903,6 +3044,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="48"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2934,11 +3076,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-48"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-48"
                     >
                       Video
                     </button>
@@ -2963,6 +3107,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="49"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -2994,11 +3139,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-49"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-49"
                     >
                       Video
                     </button>
@@ -3023,6 +3170,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="50"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3054,11 +3202,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-50"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-50"
                     >
                       Video
                     </button>
@@ -3083,6 +3233,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="51"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3114,11 +3265,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-51"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-51"
                     >
                       Video
                     </button>
@@ -3143,6 +3296,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="52"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3174,11 +3328,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-52"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-52"
                     >
                       Video
                     </button>
@@ -3210,6 +3366,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="53"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3241,11 +3398,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-53"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-53"
                     >
                       Video
                     </button>
@@ -3270,6 +3429,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="56"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3301,11 +3461,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-56"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-56"
                     >
                       Video
                     </button>
@@ -3330,6 +3492,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="57"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3361,11 +3524,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-57"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-57"
                     >
                       Video
                     </button>
@@ -3390,6 +3555,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="54"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3421,11 +3587,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-54"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-54"
                     >
                       Video
                     </button>
@@ -3450,6 +3618,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="55"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3481,11 +3650,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-55"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-55"
                     >
                       Video
                     </button>
@@ -3510,6 +3681,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="58"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3541,11 +3713,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-58"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-58"
                     >
                       Video
                     </button>
@@ -3570,6 +3744,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="59"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3601,11 +3776,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-59"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-59"
                     >
                       Video
                     </button>
@@ -3630,6 +3807,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="61"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3661,11 +3839,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-61"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-61"
                     >
                       Video
                     </button>
@@ -3690,6 +3870,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="60"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3721,11 +3902,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-60"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-60"
                     >
                       Video
                     </button>
@@ -3750,6 +3933,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="62"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3781,11 +3965,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-62"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-62"
                     >
                       Video
                     </button>
@@ -3810,6 +3996,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="63"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3841,11 +4028,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-63"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-63"
                     >
                       Video
                     </button>
@@ -3870,6 +4059,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="65"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3901,11 +4091,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-65"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-65"
                     >
                       Video
                     </button>
@@ -3930,6 +4122,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="64"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -3961,11 +4154,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-64"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-64"
                     >
                       Video
                     </button>
@@ -3990,6 +4185,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="66"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4021,11 +4217,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-66"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-66"
                     >
                       Video
                     </button>
@@ -4050,6 +4248,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="68"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4081,11 +4280,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-68"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-68"
                     >
                       Video
                     </button>
@@ -4110,6 +4311,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="67"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4141,11 +4343,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-67"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-67"
                     >
                       Video
                     </button>
@@ -4170,6 +4374,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="69"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4201,11 +4406,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-69"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-69"
                     >
                       Video
                     </button>
@@ -4230,6 +4437,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="71"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4261,11 +4469,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-71"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-71"
                     >
                       Video
                     </button>
@@ -4290,6 +4500,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="72"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4321,11 +4532,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-72"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-72"
                     >
                       Video
                     </button>
@@ -4350,6 +4563,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="73"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4381,11 +4595,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-73"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-73"
                     >
                       Video
                     </button>
@@ -4410,6 +4626,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="70"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4441,11 +4658,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-70"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-70"
                     >
                       Video
                     </button>
@@ -4477,6 +4696,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="74"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4508,11 +4728,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-74"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-74"
                     >
                       Video
                     </button>
@@ -4537,6 +4759,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="76"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4568,11 +4791,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-76"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-76"
                     >
                       Video
                     </button>
@@ -4597,6 +4822,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="75"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4628,11 +4854,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-75"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-75"
                     >
                       Video
                     </button>
@@ -4655,6 +4883,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="78"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4686,11 +4915,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-78"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-78"
                     >
                       Video
                     </button>
@@ -4713,6 +4944,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="77"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4744,11 +4976,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-77"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-77"
                     >
                       Video
                     </button>
@@ -4771,6 +5005,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="79"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4802,11 +5037,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-79"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-79"
                     >
                       Video
                     </button>
@@ -4829,6 +5066,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="80"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4860,11 +5098,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-80"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-80"
                     >
                       Video
                     </button>
@@ -4887,6 +5127,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="83"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4918,11 +5159,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-83"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-83"
                     >
                       Video
                     </button>
@@ -4945,6 +5188,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="81"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -4976,11 +5220,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-81"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-81"
                     >
                       Video
                     </button>
@@ -5003,6 +5249,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="85"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5034,11 +5281,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-85"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-85"
                     >
                       Video
                     </button>
@@ -5061,6 +5310,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="84"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5092,11 +5342,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-84"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-84"
                     >
                       Video
                     </button>
@@ -5119,6 +5371,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="88"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5150,11 +5403,13 @@ Object {
                     VAFB SLC 4E
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-88"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-88"
                     >
                       Video
                     </button>
@@ -5177,6 +5432,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="82"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5208,11 +5464,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-82"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-82"
                     >
                       Video
                     </button>
@@ -5235,6 +5493,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="89"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5266,11 +5525,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-89"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-89"
                     >
                       Video
                     </button>
@@ -5293,6 +5554,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="89"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5324,11 +5586,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-89"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-89"
                     >
                       Video
                     </button>
@@ -5351,6 +5615,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="87"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5382,11 +5647,13 @@ Object {
                     KSC LC 39A
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-87"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-87"
                     >
                       Video
                     </button>
@@ -5409,6 +5676,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="86"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5440,11 +5708,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-86"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-86"
                     >
                       Video
                     </button>
@@ -5469,6 +5739,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="91"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5500,11 +5771,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-91"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-91"
                     >
                       Video
                     </button>
@@ -5527,6 +5800,7 @@ Object {
             </li>
             <li
               class="timeline-item timeline-item-detailed right"
+              data-testid="92"
             >
               <div
                 class="timeline-content timeline-type file"
@@ -5558,11 +5832,13 @@ Object {
                     CCAFS SLC 40
                     <button
                       class="btn-comments"
+                      data-testid="comment-btn-92"
                     >
                       Comments
                     </button>
                     <button
                       class="btn-show-video"
+                      data-testid="video-btn-92"
                     >
                       Video
                     </button>
@@ -5611,6 +5887,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="1"
           >
             <div
               class="timeline-content timeline-type file"
@@ -5642,11 +5919,13 @@ Object {
                   Kwajalein Atoll
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-1"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-1"
                   >
                     Video
                   </button>
@@ -5678,6 +5957,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="2"
           >
             <div
               class="timeline-content timeline-type file"
@@ -5709,11 +5989,13 @@ Object {
                   Kwajalein Atoll
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-2"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-2"
                   >
                     Video
                   </button>
@@ -5745,6 +6027,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="3"
           >
             <div
               class="timeline-content timeline-type file"
@@ -5776,11 +6059,13 @@ Object {
                   Kwajalein Atoll
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-3"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-3"
                   >
                     Video
                   </button>
@@ -5805,6 +6090,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="4"
           >
             <div
               class="timeline-content timeline-type file"
@@ -5836,11 +6122,13 @@ Object {
                   Kwajalein Atoll
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-4"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-4"
                   >
                     Video
                   </button>
@@ -5872,6 +6160,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="5"
           >
             <div
               class="timeline-content timeline-type file"
@@ -5903,11 +6192,13 @@ Object {
                   Kwajalein Atoll
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-5"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-5"
                   >
                     Video
                   </button>
@@ -5937,6 +6228,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="6"
           >
             <div
               class="timeline-content timeline-type file"
@@ -5968,11 +6260,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-6"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-6"
                   >
                     Video
                   </button>
@@ -5995,6 +6289,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="7"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6026,11 +6321,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-7"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-7"
                   >
                     Video
                   </button>
@@ -6060,6 +6357,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="8"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6091,11 +6389,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-8"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-8"
                   >
                     Video
                   </button>
@@ -6120,6 +6420,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="9"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6151,11 +6452,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-9"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-9"
                   >
                     Video
                   </button>
@@ -6187,6 +6490,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="10"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6218,11 +6522,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-10"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-10"
                   >
                     Video
                   </button>
@@ -6247,6 +6553,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="11"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6278,11 +6585,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-11"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-11"
                   >
                     Video
                   </button>
@@ -6307,6 +6616,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="12"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6338,11 +6648,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-12"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-12"
                   >
                     Video
                   </button>
@@ -6374,6 +6686,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="13"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6405,11 +6718,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-13"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-13"
                   >
                     Video
                   </button>
@@ -6434,6 +6749,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="14"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6465,11 +6781,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-14"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-14"
                   >
                     Video
                   </button>
@@ -6494,6 +6812,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="15"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6525,11 +6844,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-15"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-15"
                   >
                     Video
                   </button>
@@ -6554,6 +6875,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="16"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6585,11 +6907,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-16"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-16"
                   >
                     Video
                   </button>
@@ -6612,6 +6936,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="17"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6643,11 +6968,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-17"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-17"
                   >
                     Video
                   </button>
@@ -6670,6 +6997,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="18"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6701,11 +7029,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-18"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-18"
                   >
                     Video
                   </button>
@@ -6735,6 +7065,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="19"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6766,11 +7097,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-19"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-19"
                   >
                     Video
                   </button>
@@ -6795,6 +7128,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="20"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6826,11 +7160,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-20"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-20"
                   >
                     Video
                   </button>
@@ -6855,6 +7191,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="21"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6886,11 +7223,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-21"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-21"
                   >
                     Video
                   </button>
@@ -6915,6 +7254,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="22"
           >
             <div
               class="timeline-content timeline-type file"
@@ -6946,11 +7286,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-22"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-22"
                   >
                     Video
                   </button>
@@ -6975,6 +7317,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="23"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7006,11 +7349,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-23"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-23"
                   >
                     Video
                   </button>
@@ -7033,6 +7378,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="24"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7064,11 +7410,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-24"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-24"
                   >
                     Video
                   </button>
@@ -7093,6 +7441,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="25"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7124,11 +7473,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-25"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-25"
                   >
                     Video
                   </button>
@@ -7160,6 +7511,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="26"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7191,11 +7543,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-26"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-26"
                   >
                     Video
                   </button>
@@ -7220,6 +7574,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="27"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7251,11 +7606,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-27"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-27"
                   >
                     Video
                   </button>
@@ -7280,6 +7637,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="28"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7311,11 +7669,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-28"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-28"
                   >
                     Video
                   </button>
@@ -7340,6 +7700,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="29"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7371,11 +7732,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-29"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-29"
                   >
                     Video
                   </button>
@@ -7400,6 +7763,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="30"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7431,11 +7795,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-30"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-30"
                   >
                     Video
                   </button>
@@ -7460,6 +7826,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="31"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7491,11 +7858,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-31"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-31"
                   >
                     Video
                   </button>
@@ -7520,6 +7889,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="32"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7551,11 +7921,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-32"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-32"
                   >
                     Video
                   </button>
@@ -7580,6 +7952,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="33"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7611,11 +7984,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-33"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-33"
                   >
                     Video
                   </button>
@@ -7640,6 +8015,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="34"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7671,11 +8047,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-34"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-34"
                   >
                     Video
                   </button>
@@ -7707,6 +8085,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="35"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7738,11 +8117,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-35"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-35"
                   >
                     Video
                   </button>
@@ -7767,6 +8148,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="36"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7798,11 +8180,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-36"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-36"
                   >
                     Video
                   </button>
@@ -7827,6 +8211,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="37"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7858,11 +8243,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-37"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-37"
                   >
                     Video
                   </button>
@@ -7887,6 +8274,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="38"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7918,11 +8306,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-38"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-38"
                   >
                     Video
                   </button>
@@ -7947,6 +8337,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="39"
           >
             <div
               class="timeline-content timeline-type file"
@@ -7978,11 +8369,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-39"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-39"
                   >
                     Video
                   </button>
@@ -8007,6 +8400,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="40"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8038,11 +8432,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-40"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-40"
                   >
                     Video
                   </button>
@@ -8067,6 +8463,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="41"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8098,11 +8495,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-41"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-41"
                   >
                     Video
                   </button>
@@ -8127,6 +8526,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="42"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8158,11 +8558,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-42"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-42"
                   >
                     Video
                   </button>
@@ -8187,6 +8589,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="43"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8218,11 +8621,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-43"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-43"
                   >
                     Video
                   </button>
@@ -8247,6 +8652,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="44"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8278,11 +8684,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-44"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-44"
                   >
                     Video
                   </button>
@@ -8307,6 +8715,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="45"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8338,11 +8747,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-45"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-45"
                   >
                     Video
                   </button>
@@ -8367,6 +8778,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="46"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8398,11 +8810,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-46"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-46"
                   >
                     Video
                   </button>
@@ -8427,6 +8841,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="47"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8458,11 +8873,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-47"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-47"
                   >
                     Video
                   </button>
@@ -8487,6 +8904,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="48"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8518,11 +8936,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-48"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-48"
                   >
                     Video
                   </button>
@@ -8547,6 +8967,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="49"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8578,11 +8999,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-49"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-49"
                   >
                     Video
                   </button>
@@ -8607,6 +9030,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="50"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8638,11 +9062,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-50"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-50"
                   >
                     Video
                   </button>
@@ -8667,6 +9093,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="51"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8698,11 +9125,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-51"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-51"
                   >
                     Video
                   </button>
@@ -8727,6 +9156,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="52"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8758,11 +9188,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-52"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-52"
                   >
                     Video
                   </button>
@@ -8794,6 +9226,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="53"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8825,11 +9258,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-53"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-53"
                   >
                     Video
                   </button>
@@ -8854,6 +9289,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="56"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8885,11 +9321,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-56"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-56"
                   >
                     Video
                   </button>
@@ -8914,6 +9352,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="57"
           >
             <div
               class="timeline-content timeline-type file"
@@ -8945,11 +9384,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-57"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-57"
                   >
                     Video
                   </button>
@@ -8974,6 +9415,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="54"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9005,11 +9447,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-54"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-54"
                   >
                     Video
                   </button>
@@ -9034,6 +9478,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="55"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9065,11 +9510,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-55"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-55"
                   >
                     Video
                   </button>
@@ -9094,6 +9541,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="58"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9125,11 +9573,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-58"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-58"
                   >
                     Video
                   </button>
@@ -9154,6 +9604,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="59"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9185,11 +9636,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-59"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-59"
                   >
                     Video
                   </button>
@@ -9214,6 +9667,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="61"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9245,11 +9699,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-61"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-61"
                   >
                     Video
                   </button>
@@ -9274,6 +9730,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="60"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9305,11 +9762,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-60"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-60"
                   >
                     Video
                   </button>
@@ -9334,6 +9793,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="62"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9365,11 +9825,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-62"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-62"
                   >
                     Video
                   </button>
@@ -9394,6 +9856,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="63"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9425,11 +9888,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-63"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-63"
                   >
                     Video
                   </button>
@@ -9454,6 +9919,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="65"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9485,11 +9951,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-65"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-65"
                   >
                     Video
                   </button>
@@ -9514,6 +9982,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="64"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9545,11 +10014,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-64"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-64"
                   >
                     Video
                   </button>
@@ -9574,6 +10045,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="66"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9605,11 +10077,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-66"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-66"
                   >
                     Video
                   </button>
@@ -9634,6 +10108,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="68"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9665,11 +10140,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-68"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-68"
                   >
                     Video
                   </button>
@@ -9694,6 +10171,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="67"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9725,11 +10203,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-67"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-67"
                   >
                     Video
                   </button>
@@ -9754,6 +10234,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="69"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9785,11 +10266,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-69"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-69"
                   >
                     Video
                   </button>
@@ -9814,6 +10297,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="71"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9845,11 +10329,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-71"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-71"
                   >
                     Video
                   </button>
@@ -9874,6 +10360,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="72"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9905,11 +10392,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-72"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-72"
                   >
                     Video
                   </button>
@@ -9934,6 +10423,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="73"
           >
             <div
               class="timeline-content timeline-type file"
@@ -9965,11 +10455,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-73"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-73"
                   >
                     Video
                   </button>
@@ -9994,6 +10486,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="70"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10025,11 +10518,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-70"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-70"
                   >
                     Video
                   </button>
@@ -10061,6 +10556,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="74"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10092,11 +10588,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-74"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-74"
                   >
                     Video
                   </button>
@@ -10121,6 +10619,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="76"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10152,11 +10651,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-76"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-76"
                   >
                     Video
                   </button>
@@ -10181,6 +10682,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="75"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10212,11 +10714,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-75"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-75"
                   >
                     Video
                   </button>
@@ -10239,6 +10743,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="78"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10270,11 +10775,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-78"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-78"
                   >
                     Video
                   </button>
@@ -10297,6 +10804,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="77"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10328,11 +10836,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-77"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-77"
                   >
                     Video
                   </button>
@@ -10355,6 +10865,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="79"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10386,11 +10897,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-79"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-79"
                   >
                     Video
                   </button>
@@ -10413,6 +10926,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="80"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10444,11 +10958,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-80"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-80"
                   >
                     Video
                   </button>
@@ -10471,6 +10987,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="83"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10502,11 +11019,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-83"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-83"
                   >
                     Video
                   </button>
@@ -10529,6 +11048,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="81"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10560,11 +11080,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-81"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-81"
                   >
                     Video
                   </button>
@@ -10587,6 +11109,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="85"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10618,11 +11141,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-85"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-85"
                   >
                     Video
                   </button>
@@ -10645,6 +11170,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="84"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10676,11 +11202,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-84"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-84"
                   >
                     Video
                   </button>
@@ -10703,6 +11231,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="88"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10734,11 +11263,13 @@ Object {
                   VAFB SLC 4E
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-88"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-88"
                   >
                     Video
                   </button>
@@ -10761,6 +11292,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="82"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10792,11 +11324,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-82"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-82"
                   >
                     Video
                   </button>
@@ -10819,6 +11353,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="89"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10850,11 +11385,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-89"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-89"
                   >
                     Video
                   </button>
@@ -10877,6 +11414,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="89"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10908,11 +11446,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-89"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-89"
                   >
                     Video
                   </button>
@@ -10935,6 +11475,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="87"
           >
             <div
               class="timeline-content timeline-type file"
@@ -10966,11 +11507,13 @@ Object {
                   KSC LC 39A
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-87"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-87"
                   >
                     Video
                   </button>
@@ -10993,6 +11536,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="86"
           >
             <div
               class="timeline-content timeline-type file"
@@ -11024,11 +11568,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-86"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-86"
                   >
                     Video
                   </button>
@@ -11053,6 +11599,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="91"
           >
             <div
               class="timeline-content timeline-type file"
@@ -11084,11 +11631,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-91"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-91"
                   >
                     Video
                   </button>
@@ -11111,6 +11660,7 @@ Object {
           </li>
           <li
             class="timeline-item timeline-item-detailed right"
+            data-testid="92"
           >
             <div
               class="timeline-content timeline-type file"
@@ -11142,11 +11692,13 @@ Object {
                   CCAFS SLC 40
                   <button
                     class="btn-comments"
+                    data-testid="comment-btn-92"
                   >
                     Comments
                   </button>
                   <button
                     class="btn-show-video"
+                    data-testid="video-btn-92"
                   >
                     Video
                   </button>
